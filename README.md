@@ -13,13 +13,13 @@ This app adds support for devices made by [Greenwave Systems](http://www.greenwa
 
 ## Changelog:
 ### v1.1.2
-**add support:**
+**add support:**   
 Powernode 5 (UK version)   
-**update:**
+**update:**   
 Powernode 1,6 - add polling intervals for each separate socket and its capabilities (re-pair of devices is needed)    
 
 ### v1.1.0 & v1.1.1 - (re-pair of devices is needed)
-**update:**
+**update:**   
 All devices - add ability to differentiate polling interval for all capabilities    
 All devices - add power meter reset flow card  
 All devices - update z-wave driver (1.1.8), code clean-up, minor fixes   
