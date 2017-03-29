@@ -11,6 +11,10 @@ This app adds support for devices made by [Greenwave Systems](http://www.greenwa
 * English
 * Dutch
 
+## NOTE:
+For proper functioning of the device, the wheel on the powernode need to be set to 'black'.
+If set to any other color or lock, the device will not respond to commands as initiated by Homey.
+
 ## Changelog:
 ### v1.1.2
 **add support:**   
