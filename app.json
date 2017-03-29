@@ -200,8 +200,8 @@
 							},
 							"value": 0,
 							"label": {
-								"en": "Poll interval on/off",
-								"nl": "Poll interval on/off"
+								"en": "On/off",
+								"nl": "On/off"
 							},
 							"hint": {
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 300 seconds.",
@@ -217,12 +217,17 @@
 							},
 							"value": 900,
 							"label": {
-								"en": "Poll interval measure (W)",
-								"nl": "Poll interval measure (W)"
+								"en": "Power (W)",
+								"nl": "Vermogen (W)"
 							},
 							"hint": {
+<<<<<<< HEAD
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 900 seconds.",
 								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen.\nBereik: 0 - 86400.\nStandaard waarde: 900 seconden."
+=======
+								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 600 seconds.",
+								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen.\nBereik: 0 - 86400.\nStandaard waarde: 600 seconden."
+>>>>>>> caseda/split-polling
 							}
 					},
 						{
@@ -234,8 +239,8 @@
 							},
 							"value": 3600,
 							"label": {
-								"en": "Poll interval meter (kWh)",
-								"nl": "Poll interval meter (kWh)"
+								"en": "Energy consumption (kWh)",
+								"nl": "Energieverbruik (kWh)"
 							},
 							"hint": {
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 3600 seconds.",
@@ -452,8 +457,13 @@
 								"nl": "Aan/uit"
 							},
 							"hint": {
+<<<<<<< HEAD
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 300 seconds.",
 								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen.\nBereik: 0 - 86400.\nStandaard waarde: 300 seconden."
+=======
+								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling. (only needed if external switching is used)\nRange: 0 - 86400.\nDefault: 0 seconds. ",
+								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen. (alleen nodig als je extern schakelt)\nBereik: 0 - 86400.\nStandaard waarde: 0 seconden."
+>>>>>>> caseda/split-polling
 							}
 						},
 						{
@@ -513,8 +523,13 @@
 								"nl": "Aan/uit"
 							},
 							"hint": {
+<<<<<<< HEAD
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 300 seconds.",
 								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen.\nBereik: 0 - 86400.\nStandaard waarde: 300 seconden."
+=======
+								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling. (only needed if external switching is used)\nRange: 0 - 86400.\nDefault: 0 seconds. ",
+								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen. (alleen nodig als je extern schakelt)\nBereik: 0 - 86400.\nStandaard waarde: 0 seconden."
+>>>>>>> caseda/split-polling
 							}
 						},
 						{
@@ -526,8 +541,8 @@
 							},
 							"value": 605,
 							"label": {
-								"en": "Wattage",
-								"nl": "Wattage"
+								"en": "Power (W)",
+								"nl": "Vermogen (W)"
 							},
 							"hint": {
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 605 seconds.",
@@ -543,8 +558,8 @@
 							},
 							"value": 3605,
 							"label": {
-								"en": "KiloWattHour (kWh)",
-								"nl": "KiloWattUur (kWh)"
+								"en": "Energy consumption (kWh)",
+								"nl": "Energieverbruik (kWh)"
 							},
 							"hint": {
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 3605 seconds.",
@@ -574,8 +589,13 @@
 								"nl": "Aan/uit"
 							},
 							"hint": {
+<<<<<<< HEAD
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 300 seconds.",
 								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen.\nBereik: 0 - 86400.\nStandaard waarde: 300 seconden."
+=======
+								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling. (only needed if external switching is used)\nRange: 0 - 86400.\nDefault: 0 seconds. ",
+								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen. (alleen nodig als je extern schakelt)\nBereik: 0 - 86400.\nStandaard waarde: 0 seconden."
+>>>>>>> caseda/split-polling
 							}
 						},
 						{
@@ -587,8 +607,8 @@
 							},
 							"value": 610,
 							"label": {
-								"en": "Wattage",
-								"nl": "Wattage"
+								"en": "Power (W)",
+								"nl": "Vermogen (W)"
 							},
 							"hint": {
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 610 seconds.",
@@ -604,8 +624,8 @@
 							},
 							"value": 3610,
 							"label": {
-								"en": "KiloWattHour (kWh)",
-								"nl": "KiloWattUur (kWh)"
+								"en": "Energy consumption (kWh)",
+								"nl": "Energieverbruik (kWh)"
 							},
 							"hint": {
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 3610 seconds.",
@@ -635,8 +655,13 @@
 								"nl": "Aan/uit"
 							},
 							"hint": {
+<<<<<<< HEAD
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 300 seconds.",
 								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen.\nBereik: 0 - 86400.\nStandaard waarde: 300 seconden."
+=======
+								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling. (only needed if external switching is used)\nRange: 0 - 86400.\nDefault: 0 seconds. ",
+								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen. (alleen nodig als je extern schakelt)\nBereik: 0 - 86400.\nStandaard waarde: 0 seconden."
+>>>>>>> caseda/split-polling
 							}
 						},
 						{
@@ -648,8 +673,8 @@
 							},
 							"value": 615,
 							"label": {
-								"en": "Wattage",
-								"nl": "Wattage"
+								"en": "Power (W)",
+								"nl": "Vermogen (W)"
 							},
 							"hint": {
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 615 seconds.",
@@ -665,8 +690,8 @@
 							},
 							"value": 3615,
 							"label": {
-								"en": "KiloWattHour (kWh)",
-								"nl": "KiloWattUur (kWh)"
+								"en": "Energy consumption (kWh)",
+								"nl": "Energieverbruik (kWh)"
 							},
 							"hint": {
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 3615 seconds.",
@@ -696,8 +721,13 @@
 								"nl": "Aan/uit"
 							},
 							"hint": {
+<<<<<<< HEAD
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 300 seconds.",
 								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen.\nBereik: 0 - 86400.\nStandaard waarde: 300 seconden."
+=======
+								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling. (only needed if external switching is used)\nRange: 0 - 86400.\nDefault: 0 seconds. ",
+								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen. (alleen nodig als je extern schakelt)\nBereik: 0 - 86400.\nStandaard waarde: 0 seconden."
+>>>>>>> caseda/split-polling
 							}
 						},
 						{
@@ -709,12 +739,17 @@
 							},
 							"value": 620,
 							"label": {
-								"en": "Wattage",
-								"nl": "Wattage"
+								"en": "Power (W)",
+								"nl": "Vermogen (W)"
 							},
 							"hint": {
+<<<<<<< HEAD
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault:620 seconds.",
 								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen.\nBereik: 0 - 86400.\nStandaard waarde:620 seconden."
+=======
+								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 620 seconds.",
+								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen.\nBereik: 0 - 86400.\nStandaard waarde: 620 seconden."
+>>>>>>> caseda/split-polling
 							}
 						},
 						{
@@ -726,8 +761,8 @@
 							},
 							"value": 3620,
 							"label": {
-								"en": "KiloWattHour (kWh)",
-								"nl": "KiloWattUur (kWh)"
+								"en": "Energy consumption (kWh)",
+								"nl": "Energieverbruik (kWh)"
 							},
 							"hint": {
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 3620 seconds.",
@@ -757,8 +792,13 @@
 								"nl": "Aan/uit"
 							},
 							"hint": {
+<<<<<<< HEAD
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 300 seconds.",
 								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen.\nBereik: 0 - 86400.\nStandaard waarde: 300 seconden."
+=======
+								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling. (only needed if external switching is used)\nRange: 0 - 86400.\nDefault: 0 seconds. ",
+								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen. (alleen nodig als je extern schakelt)\nBereik: 0 - 86400.\nStandaard waarde: 0 seconden."
+>>>>>>> caseda/split-polling
 							}
 						},
 						{
@@ -770,12 +810,17 @@
 							},
 							"value": 625,
 							"label": {
-								"en": "Wattage",
-								"nl": "Wattage"
+								"en": "Power (W)",
+								"nl": "Vermogen (W)"
 							},
 							"hint": {
+<<<<<<< HEAD
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault:625 seconds.",
 								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen.\nBereik: 0 - 86400.\nStandaard waarde:625 seconden."
+=======
+								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 625 seconds.",
+								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen.\nBereik: 0 - 86400.\nStandaard waarde: 625 seconden."
+>>>>>>> caseda/split-polling
 							}
 						},
 						{
@@ -787,8 +832,8 @@
 							},
 							"value": 3625,
 							"label": {
-								"en": "KiloWattHour (kWh)",
-								"nl": "KiloWattUur (kWh)"
+								"en": "Energy consumption (kWh)",
+								"nl": "Energieverbruik (kWh)"
 							},
 							"hint": {
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 3625 seconds.",
@@ -818,8 +863,13 @@
 								"nl": "Aan/uit"
 							},
 							"hint": {
+<<<<<<< HEAD
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 300 seconds.",
 								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen.\nBereik: 0 - 86400.\nStandaard waarde: 300 seconden."
+=======
+								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling. (only needed if external switching is used)\nRange: 0 - 86400.\nDefault: 0 seconds. ",
+								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen. (alleen nodig als je extern schakelt)\nBereik: 0 - 86400.\nStandaard waarde: 0 seconden."
+>>>>>>> caseda/split-polling
 							}
 						},
 						{
@@ -831,12 +881,17 @@
 							},
 							"value": 630,
 							"label": {
-								"en": "Wattage",
-								"nl": "Wattage"
+								"en": "Power (W)",
+								"nl": "Vermogen (W)"
 							},
 							"hint": {
+<<<<<<< HEAD
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault:630 seconds.",
 								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen.\nBereik: 0 - 86400.\nStandaard waarde:630 seconden."
+=======
+								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 630 seconds.",
+								"nl": "Aantal seconden tussen het opvragen van een status update aan het apparaat, 0 zal polling uitschakelen.\nBereik: 0 - 86400.\nStandaard waarde: 630 seconden."
+>>>>>>> caseda/split-polling
 							}
 						},
 						{
@@ -848,8 +903,8 @@
 							},
 							"value": 3630,
 							"label": {
-								"en": "KiloWattHour (kWh)",
-								"nl": "KiloWattUur (kWh)"
+								"en": "Energy consumption (kWh)",
+								"nl": "Energieverbruik (kWh)"
 							},
 							"hint": {
 								"en": "The amount of seconds between asking the device for a status update, 0 will disable polling.\nRange: 0 - 86400.\nDefault: 3630 seconds.",
